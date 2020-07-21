@@ -3,3 +3,13 @@
 	color: white !important;
 	background-color: #fb73191c !important;
 }
+
+.card-title{
+	font-size: 3em;
+}
+
+.card-body p{
+	font-size: 2em;
+	font-family: 'Cormorant Garamond', serif;
+	text-shadow: 2px 7px 15px black;
+}
