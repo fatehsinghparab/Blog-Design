@@ -3,7 +3,7 @@ nav{
 }
 
 #particles-js{
-	height: 200% !important;
+	height: 100% !important;
 }
 	
 #relative{
@@ -26,5 +26,8 @@ nav{
 	color: white;
 	text-shadow: 3px 7px 11px black;
 	}
-}
 
+	#particles-js{
+	height: 300% !important;
+	}
+}
