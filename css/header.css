@@ -1,0 +1,30 @@
+nav{
+	font-size: 1rem !important;
+}
+
+#particles-js{
+	height: 200% !important;
+}
+	
+#relative{
+	position: relative;
+}
+
+.index{
+	background-image: url("../img/index.jpg") !important;
+	background-size: 100% 140%;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 3px 7px 11px black;
+}
+
+@media only screen and (max-width: 360px) {
+  .index{
+	background-image: url("../img/index.jpg") !important;
+	background-size: 145% 100%;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 3px 7px 11px black;
+	}
+}
+
