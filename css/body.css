@@ -1,15 +1,56 @@
-.card,.cardIndex{
-	margin: 0px 3%;
+#indexHeader{
+	color: white;
+	text-transform: uppercase;
+	background-color: #fc715d;
+	font-family: 'Oswald', sans-serif;
+}
+
+#indexDesignation{
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	background-color: #5c5c5c;
+}
+
+#indexDesignation h1{
+	padding: 5% 0% 5% 1%;
+	font-size: 1em;
+}
+
+#indexDescription{
+	margin-left: -2.8%;
+
+}
+
+#indexDescription p{
+		padding-top: 5%;
+		font-family: 'Noto Sans JP', sans-serif;
+}
+
+#indexSignature{
+	color: #fc715d;
+	font-family: 'Homemade Apple', cursive;
+	font-weight: 600
+}
+
+.bgCard{
+	background-color: #343a40!important;
+}
+
+.card-title, .card-text {
 	color: white !important;
-	background-color: #fb73191c !important;
 }
 
-.card-title{
-	font-size: 3em;
+li a{
+	color: #fc715d;
+	font-weight: 500;
 }
 
-.card-body p{
-	font-size: 2em;
-	font-family: 'Cormorant Garamond', serif;
-	text-shadow: 2px 7px 15px black;
+@media (min-width: 576px) {
+	#skillSpanSpacer{
+		margin-left: 0% !important;
+	}
+}
+
+#skillSpanSpacer{
+	margin-left: 10%;
 }
